@@ -9,10 +9,8 @@ img {
     vertical-align: middle;
 }
 .emag-wrapper {
-    background: url('../images/bg.jpg') no-repeat bottom right;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-bottom: 80px;
+    background-color: #182034;
+    /* padding-bottom: 80px; */
 }
 /* .emag-cover {
     padding-top: 46px;
@@ -22,7 +20,7 @@ img {
     width: 100%;
 }
 .emag-sapo {
-    margin: 30px auto 50px;
+    margin: -15px auto 50px;
 }
 .emag-sapo img {
     width: 100%;
@@ -69,7 +67,7 @@ img {
     font-size: 17px;
     line-height: 26px;
     margin-bottom: 30px;
-    color: #161f4d;
+    color: #e5c49b;
 }
 .emag-content p.bold {
     font-weight: 700;
@@ -90,7 +88,6 @@ img {
 }
 .emag-credit {
     margin-top: 90px;
-    padding-left: 15px;
 }
 .emag-credit p {
     font-size: 17px;

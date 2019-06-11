@@ -21,9 +21,7 @@ img {
     margin: 0 auto;
 }
 .emag-wrapper {
-    /* background: url('../images/bg.jpg') no-repeat bottom right;
-    background-attachment: fixed;
-    background-size: cover; */
+    background-color: #182034;
 }
 /* .emag-cover {
     padding-top: 44px;
@@ -33,7 +31,7 @@ img {
     width: 100%;
 }
 .emag-sapo {
-    margin: 60px auto 0;
+    margin: -60px auto 0;
 }
 .emag-sapo img {
     width: 100%;
@@ -69,18 +67,16 @@ img {
     margin-bottom: 60px;
 }
 .emag-content {
-    background: url('../images/bg.jpg') no-repeat bottom right;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-top: 60px;
-    padding-bottom: 100px;
+    /* background: url('../images/footer.jpg') no-repeat center bottom;
+    background-size: 100% auto;
+    padding-bottom: 700px; */
 }
 .emag-content p {
     font-family: 'NotoSerif', serif;
     font-size: 17px;
     line-height: 26px;
     margin-bottom: 30px;
-    color: #161f4d;
+    color: #e5c49b;
 }
 .emag-content p.bold {
     font-weight: 700;
@@ -109,11 +105,11 @@ img {
     margin-top: 6px;
 }
 .emag-fullwidth {
-    background: url('../images/bg.jpg') repeat-y center;
-    background-size: 100% auto;
-    margin-top: 60px;
-    padding-top: 70px;
-    padding-bottom: 55px;
+    /* padding-top: 70px; */
+    /* margin-top: -60px; */
+    position: relative;
+    z-index: 0;
+    margin-top: -250px;
 }
 .emag-fullwidth p {
     color: #e5d4b5;
@@ -129,7 +125,7 @@ img {
     width: 475px;
 }
 .emag-credit {
-    margin: 60px auto;
+    margin: -30px auto 0;
 }
 .emag-credit p {
     margin-bottom: 0;
@@ -164,4 +160,14 @@ img {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+.relative {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1440px) {
+    .emag-fullwidth {
+        margin-top: -200px;
+    }
 }
